@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Locker</string>
+    <string name="action_settings">PARAMETRE</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">VEROUILLAGE</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="valider">VALIDER</string>
+    <string name="previous">Previous</string>
+
+    <string name="votre_pin">ENTREZ VOTRE PIN</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+</resources>

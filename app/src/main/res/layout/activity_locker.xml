@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FDFDFD"
+    android:backgroundTint="#193E5C"
+    android:gravity="center_vertical"
+    tools:context=".Locker">
+
+    <TextView
+        android:id="@+id/textpin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:gravity="center"
+        android:text="PIN"
+        android:textColor="#FFF"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/pin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textpin"
+        android:layout_margin="10dp"
+        android:background="#3Bffffff"
+        android:hint="Votre pin"
+        android:inputType="number"
+        android:padding="23dp"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff" />
+
+    <Button
+        android:id="@+id/pinbtn"
+        android:layout_width="209dp"
+        android:layout_height="70dp"
+        android:layout_below="@id/pin"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:backgroundTint="#ffffff"
+        android:onClick="entrez"
+        android:text="ENTREZ"
+        android:textColor="@color/black" />
+</RelativeLayout>
