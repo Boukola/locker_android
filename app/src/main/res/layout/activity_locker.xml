@@ -40,7 +40,6 @@
         android:layout_centerHorizontal="true"
         android:layout_margin="10dp"
         android:backgroundTint="#ffffff"
-        android:onClick="entrez"
         android:text="ENTREZ"
         android:textColor="@color/black" />
 </RelativeLayout>
